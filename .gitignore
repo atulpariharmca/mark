@@ -1,6 +1,7 @@
 .gradle
 /build/
-!gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.jar
+gradle/
 
 ### STS ###
 .apt_generated
@@ -9,6 +10,14 @@
 .project
 .settings
 .springBeans
+.tomcat-instance
+tomcat-instance/
+logs/
+build/
+bin/
+.lock.db
+
+
 
 ### IntelliJ IDEA ###
 .idea
@@ -23,3 +32,4 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
